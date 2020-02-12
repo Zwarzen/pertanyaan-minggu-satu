@@ -1,6 +1,14 @@
+import java.util.Scanner;
 public class pertanyaanTiga {
     public static void main(String[] args) {
-        int [] bil = {2, 4, 10, 11, 13, 16, 19, 200, 45, 23, 89, 111};
+    	
+    	int[] bil = new int[15];
+
+    	for(int i = 0; i < bil.length; i++){
+    		System.out.println("inputan ke-" + (i+1) + " : " );
+    		bil[i] = sc.nextInt();
+    	}
+        
         System.out.print("Bilangan Genap  :  ");
         for (int i = 0; i < bil.length; i++){
             if (bil [i] % 2 == 0) {
